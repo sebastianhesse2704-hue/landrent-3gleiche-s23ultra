@@ -28,7 +28,7 @@ jobs:
         run: |
           rm -rf project
           mkdir project
-          unzip -q LandRent_3Gleiche_S23ULTRA_ZERO_V2.zip -d project
+          unzip -q LandRent_3Gleiche_S23ULTRA_ZERO_V4.zip -d project
 
       - name: APK bauen
         working-directory: project
